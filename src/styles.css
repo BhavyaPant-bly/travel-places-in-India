@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+.container-center {
+  padding: 3rem;
+  max-width: 600px;
+  margin: auto;
+}
+.heading {
+  font-size: 500%;
+  font-weight: bolder;
+  background-color: purple;
+  padding: 3rem;
+  color: white;
+}
+body {
+  margin: 0px;
+}
