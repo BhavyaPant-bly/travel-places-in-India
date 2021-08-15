@@ -15,85 +15,140 @@ var TravelDestinations = {
     "India is a spiritual land of different religions. Religious places are a must to visit"
 };
 var beaches = {
-  "Varkala, Kerala": "Best Spectacular Setting",
-  "Palolem, South Goa": "Best Picturesque Beach",
-  "Anjuna, North Goa": "Best for Party People and Backpackers",
-  "Baga, North Goa": "Best for chilling Out",
-  Pondicherry: "Best for Culture",
-  " Tarkarli, Maharashtra": "Best for Scuba Diving and Snorkeling",
-  "Lakshadweep Islands": "Most Pristine and Surreal Beaches",
-  "Andaman and Nicobar": "Secluded Blue seas and Virgin Islands",
-  "Gokarna, Karnataka": "Best Goa Substitute"
+  "Varkala, Kerala": ["Best Spectacular Setting", "5/5"],
+  "Palolem, South Goa": ["Best Picturesque Beach", "5/5"],
+  "Anjuna, North Goa": ["Best for Party People and Backpackers", "4/5"],
+  "Baga, North Goa": ["Best for chilling Out", "4/5"],
+  Pondicherry: ["Best for Culture", "4/5"],
+  " Tarkarli, Maharashtra": ["Best for Scuba Diving and Snorkeling", "3/5"],
+  "Lakshadweep Islands": ["Most Pristine and Surreal Beaches", "3/5"],
+  "Andaman and Nicobar": ["Secluded Blue seas and Virgin Islands", "3/5"],
+  "Gokarna, Karnataka": ["Best Goa Substitute", "3/5"]
 };
 var hillStations = {
-  "Manali, Himachal": "Lovers Paradise",
-  "Leh Ladakh, Jammu and Kashmir": "phantasmagoric and fabulous landscapes",
-  "Gangtok, Sikkim":
+  "Manali, Himachal": ["Lovers Paradise", "5/5"],
+  "Leh Ladakh, Jammu and Kashmir": [
+    "phantasmagoric and fabulous landscapes",
+    "5/5"
+  ],
+  "Gangtok, Sikkim": [
     "mesmerising prismatic beauty and beautiful winding hill roads",
-  "Srinagar, Jammu and Kashmir": "plethora of gorgeous scenic vistas",
-  "Auli, Uttrakhand": "skiing Destination Of India",
-  Mussoorie: "known for The Cloud’s End and The Mall",
-  "Ooty, Tamil Nadu": "Queen of the Hills",
-  "Munnar, Kerela": "Tea estates, exotic lush greenery and craggy peaks"
+    "5/5"
+  ],
+  "Srinagar, Jammu and Kashmir": ["plethora of gorgeous scenic vistas", "5/5"],
+  "Auli, Uttrakhand": ["skiing Destination Of India", "4/5"],
+  Mussoorie: ["known for The Cloud’s End and The Mall", "4/5"],
+  "Ooty, Tamil Nadu": ["Queen of the Hills", "4/5"],
+  "Munnar, Kerela": [
+    "Tea estates, exotic lush greenery and craggy peaks",
+    "3/5"
+  ]
 };
 var FoodDelight = {
-  "Jaipur, Rajasthan":
+  "Jaipur, Rajasthan": [
     "a city of authentic Rajasthani food , grandeur and magnificence",
-  Hyderabad: " Famous for Hyderabadi Biriyani",
-  "Amritsar, Punjab": "a delight for all desi food lovers",
+    "5/5"
+  ],
+  Hyderabad: [" Famous for Hyderabadi Biriyani", "5/5"],
+  "Amritsar, Punjab": ["a delight for all desi food lovers", "5/5"],
 
-  Delhi: "Authentic cuisines, Regional fusions",
-  Goa: "Famous for its Sea food",
-  "Kolkatta, West Bengal":
+  Delhi: ["Authentic cuisines, Regional fusions", "5/5"],
+  Goa: ["Famous for its Sea food", "4/5"],
+  "Kolkatta, West Bengal": [
     "Famous Bengali cuisines, fishes and deserts like sondesh and rosogulla",
-  "Mumbai, Maharashtra": "Famous for mouth-watering street foods like Vada pao",
-  "Lucknow, Uttar Pradesh":
+    "5/5"
+  ],
+  "Mumbai, Maharashtra": [
+    "Famous for mouth-watering street foods like Vada pao",
+    "4/5"
+  ],
+  "Lucknow, Uttar Pradesh": [
     "Famous for Mughlai and Awadhi cuisines and their world famous kebabs",
-  Sikkim:
-    "Famous for its variety of momos (dumplings), Thukpa(Noodle soup) and Phagshapa(Pork fat)"
+    "4/5"
+  ],
+  Sikkim: [
+    "Famous for its variety of momos (dumplings), Thukpa(Noodle soup) and Phagshapa(Pork fat)",
+    "4/5"
+  ]
 };
 
 var NaturendCulture = {
-  "Tamil Nadu":
+  "Tamil Nadu": [
     "Wondrous temples, Carnatic music celebrations and gorgeous architecture ",
-  Mysore: "Palaces galore, myriad of museums and galleries",
-  Hampi:
+    "5/5"
+  ],
+  Mysore: ["Palaces galore, myriad of museums and galleries", "4/5"],
+  Hampi: [
     "a world heritage site for housing the ruins of the ancient Vijaynagar kingdom",
-  "Khajuraho, Madhya Pradesh":
+    "4/5"
+  ],
+  "Khajuraho, Madhya Pradesh": [
     "temples with sensuous postures and  promoting eroticism",
-  "Kaziranga National Park": " most picturesque wildlife sanctuaries in India ",
-  "Jim Corbett National Park": "India's oldest and most popular National Park",
-  Thekkady: "Famous for Asian Elephants, Tigers, Gaurs, Sambars"
+    "4/5"
+  ],
+  "Kaziranga National Park": [
+    " most picturesque wildlife sanctuaries in India ",
+    "4/5"
+  ],
+  "Jim Corbett National Park": [
+    "India's oldest and most popular National Park",
+    "4/5"
+  ],
+  Thekkady: ["Famous for Asian Elephants, Tigers, Gaurs, Sambars", "3/5"]
 };
 
 var HistoricaL = {
-  "Taj Mahal, Agra":
+  "Taj Mahal, Agra": [
     "The ultimate epitome of love with white marble structure ",
-  "Agra Fort, Uttar Pradesh":
+    "5/5"
+  ],
+  "Agra Fort, Uttar Pradesh": [
     "Built entirely of red sandstone, provides a sense of the rich history of the Mughal era",
-  "Red Fort, Delhi":
+    "4/5"
+  ],
+  "Red Fort, Delhi": [
     "also known as Qila-e-Mubarak, famous Historical as well as a Protest site",
-  "Hawa Mahal, Jaipur":
+    "5/5"
+  ],
+  "Hawa Mahal, Jaipur": [
     " A honeycomb of a beehive with its 953 intricate windows famously known as ‘Palace of Winds’",
-  "Sanchi Stupa, Madhya Pradesh":
+    "4/5"
+  ],
+  "Sanchi Stupa, Madhya Pradesh": [
     "One of the most religious centers of Buddhism ",
-  "Fatehpuri Sikri, Uttar Pradesh":
-    "A well planned royal city with carved columns and decorated pillars"
+    "4/5"
+  ],
+  "Fatehpuri Sikri, Uttar Pradesh": [
+    "A well planned royal city with carved columns and decorated pillars",
+    "4/5"
+  ]
 };
 
 var ReligiouS = {
-  "Vaishno Devi, Uttarakhand":
+  "Vaishno Devi, Uttarakhand": [
     "One of the most visited places of worship in India",
-  "Ajmer Sharif Dargah, Uttar Pradesh":
+    "5/5"
+  ],
+  "Ajmer Sharif Dargah, Uttar Pradesh": [
     "With intricate detailing of Mughal architecture, a place of astounding religious beliefs",
-  " Amarnath Caves, Jammu Kashmir":
+    "5/5"
+  ],
+  " Amarnath Caves, Jammu Kashmir": [
     "Situated in the beautiful abode of Jammu and Kashmir this place is a haven for the pilgrims",
-  "Golden Temple, Amritsar":
+    "5/5"
+  ],
+  "Golden Temple, Amritsar": [
     "A Majestic Gurudwara of utmost importance to sikhs with a beautiful lake",
-  "Tirupati Balaji":
+    "5/5"
+  ],
+  "Tirupati Balaji": [
     "Located in the Tirumala Hills and houses an 8-feet tall idol of Lord Venkateshwara",
-  "Jagannath Temple":
-    "An extremely sacred place to the Hindus, it is one of the Char Dhams in the country"
+    "5/5"
+  ],
+  "Jagannath Temple": [
+    "An extremely sacred place to the Hindus, it is one of the Char Dhams in the country",
+    "5/5"
+  ]
 };
 var Travel = Object.keys(TravelDestinations);
 var beach = Object.keys(beaches);
@@ -157,7 +212,8 @@ export default function App() {
             <li>
               <hr />
               <h1> {listing[item]}:</h1>
-              <h2>{description[item]}</h2>
+              <h2>{description[item][0]}</h2>
+              <h2>Ratings:{description[item][1]}</h2>
             </li>
           );
         })}
