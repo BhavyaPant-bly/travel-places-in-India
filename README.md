@@ -1,2 +1,2 @@
 # travel-places-in-India
-Created with CodeSandbox,React Js,Css which lists Top Travel Places in India for various varieties with Ratings
+This file contains code for an App Created with CodeSandbox,React Js,Css which lists Top Travel Places in India for various varieties with Ratings
